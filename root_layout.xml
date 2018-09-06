@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/glide_imageView"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:layout_marginBottom="3dp"
+        android:src="@color/colorPrimaryDark" />
+
+    <ImageView
+        android:id="@+id/picasso_imageView"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@color/colorPrimary" />
+    <Button
+        android:id="@+id/button_load"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        android:text="Carregar imagens"/>
+</LinearLayout>
